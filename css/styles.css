@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1c4e37;
+    background-color: #faebd7;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 16px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.skip-to-main-content-link {
+   position: absolute;
+   left: -9999px;
+   z-index: 999;
+   padding: 1em;
+   background-color: white;
+   color: white;
+   opacity: 0;
+ }
+
+ .skip-to-main-content-link:focus {
+   left: 50%;
+   transform: translateX(-50%);
+   opacity: 1;
+ }
+
+ nav {
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-end;
+   flex: 1 1 100px;
+   flex-wrap: wrap;
+}
+
+ nav.page {
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   flex: 1 1 100px;
+   flex-wrap: wrap;
+   padding: 5px;
+}
+
+header {
+    border-bottom: 5px solid #27352f;
+    background-color: #27352f;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 10px 24px 0px rgba(0,0,0,0.30);
+    opacity: .95;
+ } 
+
+ .header-content {
+   color: white;
+   font-weight: bold;
+   padding: 10px;
+ }
+
+ footer {
+    border-top: 5px solid #27352f;
+    background-color: #27352f;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    box-shadow: 0px -10px 24px 0px rgba(1, 0, 7, 0.726);
+    opacity: .95;
+ }
+
+ .footer-content {
+   color: white;
+   font-weight: bold;
+   padding: 10px;
+ }
+
+ h1, h2, h3, h4 {
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-weight: bold;
+ }
+
+ h1 {
+   font-size: 36px;
+   padding: 10px;
+ }
+
+ h2 {
+   font-size: 30px;
+ }
+
+ h3 {
+   font-size: 28px;
+ }
+
+ p.name {
+  font-size: 28px;
+  float: left;
+  position: relative;
+  left: 30px;
+ }
+
+ a {
+   color: #d1a167;
+   text-decoration: none;
+ }
+
+ a:hover {
+   color: #eec304;
+ }
+
+ a:visited {
+   color: #a17743;
+ }
+
+ a:visited:hover {
+   color: #754d03;
+ }
+
+  a:active {
+   text-decoration: none;
+ }
+
+ .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+ section {
+   padding: 2.5rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: left;
+   flex: 1 1 100px;
+   flex-wrap: wrap;
+}
+
+section > div {
+   padding: 0.5rem;
+}
