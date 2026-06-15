@@ -18,7 +18,6 @@
  <link rel="shortcut icon" type="img/ico" href="./imgs/ico/cat-icon_v-white_64.ico" />
  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-  
 </head>
 
 <body>
@@ -27,7 +26,7 @@
     <!-- header content -->
     <header id="header">
         <div class="header-content">
-           <img src="./imgs/cat-icon-01.png" alt="cat icon" class="cat-icon">
+            <img src="./imgs/cat-icon-01.png" alt="cat icon" class="cat-icon">
            <p class="name">Madeleine Moujaes</p>
            <nav class="nav-header">
             <ul>
@@ -44,19 +43,26 @@
     <main id="main">
         <div id="main-content" class="overlay">
             <section id="home">
-                <h1>Madeleine Moujaes</h1>
-                <h2>
-                     I'm&nbsp;<span class="auto-type"></span>
-                </h2>
+                <p>
+                    Hello, I'm Maddy! I'm a writer/editor with 5+ years of self-taught web development and content production experience at Pearson. I am always striving to learn more about this dynamic skill set and to create accessible, responsive web-based content that aligns with the highest standards of user experience.
+                </p>
 
-                <nav class="nav-menu">
-                    <ul>
-                        <li><a class="nav-link" href="index.html">Home</a></li>
-                        <li><a class="nav-link" href="about.html">About</a></li>
-                        <li><a class="nav-link" href="education.html">Education</a></li>
-                        <li><a class="nav-link" href="experience.html">Experience</a></li>
-                    </ul>
-                </nav>
+                <div class="tile-row">
+                <div class="tile-col m6">
+                    <div class="tile-content">
+                        <h2>Education</h2>
+                        <p>blah</p>
+                        <button class="read-more-button"><a id="edu-link" href="education.html">Education</a></button>
+                    </div>
+                </div>
+                <div class="tile-col m6">
+                    <div class="tile-content">
+                        <h2>Experience</h2>
+                        <p>blah</p>
+                        <button class="read-more-button"><a id="exp-link" href="experience.html">Experience</a></button>
+                    </div>
+                </div>
+                </div>
             </section>
         </div>
     </main>
@@ -68,15 +74,6 @@
         </div>
         <script src="js/main.js"></script>
     </footer>
-
-    <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
-    <script>
-    var typed = new Typed('.auto-type', {
-      strings: ["Learning.", "Creating.", "Coding.", "Writing.", "Designing.", "Living."],
-      typeSpeed: 50,
-      loop: true,
-    });
-  </script>
 </body>
 
 
