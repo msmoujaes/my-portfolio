@@ -33,4 +33,4 @@ If my work aligns with what you’re looking for, feel free to reach out!
 
 ### GitHub Stats
 
-![Maddy's GitHub stats](https://github-readme-stats.vercel.app/api?username=msmoujaes&show_icons=true&theme=radical&hide=contribs,prs)
+![Maddy's GitHub stats](https://github-readme-stats.vercel.app/api?username=msmoujaes&show_icons=true&theme=radical&hide=contribs,prs&custom_title=Maddy’s+GitHub+Stats)
