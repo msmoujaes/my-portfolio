@@ -33,4 +33,9 @@ If my work aligns with what you’re looking for, feel free to reach out!
 
 ### GitHub Stats
 
-![Maddy's GitHub stats](https://github-readme-stats.vercel.app/api?username=msmoujaes&show_icons=true&theme=radical&hide=contribs,prs&custom_title=Maddy’s+GitHub+Stats)
+<a href="https://github.com/anuraghazra/convoychat">
+  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=msmoujaes&show_icons=true&theme=radical&hide=contribs,prs&custom_title=Maddy’s+GitHub+Stats" />
+</a>
+<a href="https://github.com/anuraghazra/github-readme-stats">
+  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=msmoujaes&layout=compact&theme=radical" />
+</a>
