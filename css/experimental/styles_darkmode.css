@@ -765,3 +765,29 @@ header nav a[aria-current="page"] {
     text-decoration: underline;
 }
 
+/*--------------------------------------------------------------
+# Dark/Light Mode Toggle
+--------------------------------------------------------------*/
+.theme-toggle-btn {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 40px;
+  min-height: 40px;
+}
+
+.theme-toggle-btn:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  transform: scale(1.1);
+}
+
+
+

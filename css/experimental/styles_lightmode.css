@@ -6,7 +6,7 @@ body {
     font-family: Arial, Helvetica, sans-serif !important;
     color: #C2B19C  !important;
     /* start the background image below the fixed header (adjust 150px to match your header height) */
-    background: #272030 url("../imgs/home_large-split_top.png") center 90px/cover no-repeat fixed !important;
+    background: #d0c8da url("../imgs/home_large-split_top.png") center 90px/cover no-repeat fixed !important;
     padding: 16px !important;
     margin-top: 150px !important;
     margin-bottom: 150px !important;
@@ -764,4 +764,30 @@ header nav a[aria-current="page"] {
     border-radius: 4px;
     text-decoration: underline;
 }
+
+/*--------------------------------------------------------------
+# Dark/Light Mode Toggle
+--------------------------------------------------------------*/
+.theme-toggle-btn {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 40px;
+  min-height: 40px;
+}
+
+.theme-toggle-btn:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  transform: scale(1.1);
+}
+
+
 
