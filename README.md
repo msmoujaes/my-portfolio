@@ -4,7 +4,7 @@ I'm a writer and editor with 5+ years of self-taught experience in web developme
 
 ---
 
-## About Me
+## About Me 📑
 
 As a child of the internet, I’m interested in the evolving digital landscape and the role thoughtful design plays in personalized learning. I’m motivated by opportunities to create clear, engaging, and accessible experiences that support learners.
 
