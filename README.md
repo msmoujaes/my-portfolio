@@ -12,6 +12,17 @@ Outside of work, I enjoy watercolor, reading, theater and film, and both video a
 
 ---
 
+### GitHub Stats
+
+<a href="https://github.com/anuraghazra/convoychat">
+  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=msmoujaes&show_icons=true&theme=radical&hide=contribs,prs&custom_title=Maddy’s+GitHub+Stats" />
+</a>
+<a href="https://github.com/anuraghazra/github-readme-stats">
+  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=msmoujaes&layout=compact&theme=radical" />
+</a>
+
+---
+
 ## What do I do? 🤔
 
 <p>
@@ -30,15 +41,4 @@ If my work aligns with what you’re looking for, feel free to reach out!
 <p>
 <a href="www.linkedin.com/in/madeleine-moujaes-4b960232"><img alt="LinkedIn" src="https://img.shields.io/badge/Contact-LinkedIn-0077B5?logo=linkedin&logoColor=white&style-for-the-badge" /></a>
 </p>
-
----
-
-### GitHub Stats
-
-<a href="https://github.com/anuraghazra/convoychat">
-  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=msmoujaes&show_icons=true&theme=radical&hide=contribs,prs&custom_title=Maddy’s+GitHub+Stats" />
-</a>
-<a href="https://github.com/anuraghazra/github-readme-stats">
-  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=msmoujaes&layout=compact&theme=radical" />
-</a>
 
