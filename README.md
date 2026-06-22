@@ -1,12 +1,12 @@
 #  Hi there, I'm Maddy! 👋
 
-I'm a writer and editor with 5+ years of self-taught experience in web development and content production at Pearson. I focus on creating accessible, responsive web content that meets high standards for usability and accessibility.
+I'm a writer and editor with 5+ years of self-taught experience in web development and content production at Pearson. I focus on creating accessible, user-centered digital experiences that are both functional and visually engaging. My multidisciplinary background—from technical writing to creative storytelling—allows me to bridge the gap between design and development, ensuring that every project is thoughtfully constructed and meaningful.
 
 ---
 
 ## About Me 🤔
 
-As a child of the internet, I’m interested in the evolving digital landscape and the role thoughtful design plays in personalized learning. I’m motivated by opportunities to create clear, engaging, and accessible experiences that support learners.
+As a child of the internet, I’m interested in the evolving digital landscape and the role thoughtful design plays in personalized user experience.
 
 Outside of work, I enjoy watercolor, reading, theater and film, and both video and tabletop games (especially Dungeons & Dragons). I also value spending time with friends and family.
 
