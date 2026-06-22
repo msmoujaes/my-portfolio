@@ -187,6 +187,10 @@ body {
     vertical-align: bottom;
  }
 
+.social-links {
+    list-style-type: none;
+}
+
  footer {
     background: #C1A9AF;
     position: fixed;
