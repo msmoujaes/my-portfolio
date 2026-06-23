@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Participate</title>
+		<link rel="icon" type="image/ico" href="img/favicon.ico">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="css/aos.css" />
+		<link rel="stylesheet" href="css/custom.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+	</head>
+
+	<body>
+		<div class="spinner-wrapper">
+			<div class="spinner-border  spinner-color" role="status">
+				<span class="visually-hidden">Loading...</span>
+			</div>
+		</div>
+
+		<div class="parallax d-none d-sm-block">
+			<div id="parallax-text" class="text-center text-white container col-10 col-lg-8">
+				<h1 class="hero-scroll mx-2">help us provide <br> every child with great educators</h1>
+			</div>
+		</div>
+
+		<main>
+			<!-- Nav bar -->
+			<nav class="navbar navbar-expand-lg bg-info sticky-top" data-bs-theme="dark" id="mainNav">
+				<div class="container px-1">
+					<a class="navbar-brand" href="#header">
+						<img 
+							src="img/logo.png" 
+							class="img-fluid" 
+							alt="Illinois Licensure Testing System"
+							style="min-width: 135px;"
+						>
+					</a>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+					<div class="collapse navbar-collapse" id="navbarResponsive">
+						<ul class="navbar-nav ms-auto">
+							<li class="nav-item px-2">
+								<a class="nav-link" href="#About">About</a>
+							</li>
+							<li class="nav-item px-2">
+								<a class="nav-link" href="#Development">Development</a>
+							</li>
+							<li class="nav-item px-2">
+								<a class="nav-link" href="#Reimbursement">Reimbursement</a>
+							</li>
+							<li class="nav-item px-2">
+								<a class="nav-link" href="#FAQs">FAQs</a>
+							</li>
+							<li>
+								<a class="btn btn-warning mt-1 mx-2" href="#Apply">Apply</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+
+			<div class="container-fluid">
+				<!-- Header/hero section -->
+				<header class="bg-light bg-gradient" id="header">
+					<div class="container col-10 col-lg-9">
+						<div class="row py-0 py-lg-5 g-4 justify-content-center">
+							<div class="hero-logo px-2 col-10 col-lg-8">
+								<img 
+									src="img/ILTS_logo_600x150px_transparent.png" 
+									alt="logo for the Illinois Licensure Testing System program"
+								>
+							</div>
+							<div class="col-lg-10 text-center">
+								<h1 class="fw-bold fs-2">Help Shape the Future of Education in Illinois</h1>
+							
+								<p class="my-3">
+									Illinois State Board of Education (ISBE) and the Evaluation Systems group of Pearson are seeking Illinois educators who wish to participate in test development activities for the Illinois Licensure Testing System (ILTS).
+								</p>
+
+								<div class="mt-4 d-grid gap-3 d-md-block">
+									<a class="btn btn-info btn-lg mx-2" href="https://cvent.me/05Veaz" target="_blank" role="button"><i class="bi bi-person-fill-check" aria-hidden="true"></i>
+										Apply
+									</a>
+									<a class="btn btn-info btn-lg mx-2" href="https://cvent.me/W2qxgk" target="_blank" role="button"><i class="bi bi-people-fill" aria-hidden="true"></i>
+										Nominate
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</header>
+
+				<!-- About section -->
+				<section id="About">
+					<div class="container col-10 col-lg-8" data-aos="fade-up" data-aos-delay="100">
+						<h2>About</h2>
+
+						<p>
+							The purpose of the Illinois Licensure Testing System (ILTS) is to help identify, for licensure purposes, candidates who have demonstrated the level of knowledge required to perform satisfactorily in their fields of specialization.
+						</p>
+						<p>
+							The ILTS is aligned with state and national standards for educator preparation.
+						</p>
+						<p>
+							The ILTS consists of criterion-referenced, objective-based tests designed to measure a candidate's knowledge and skills in relation to an established standard rather than in relation to the performance of other candidates.
+						</p>
+
+						
+						<p>
+							The involvement of public school teachers and educator preparation faculty is critical to the success of the ILTS program. Please help us maintain high-quality education in Illinois public schools. Get involved now!
+						</p>
+						<p>
+							Illinois State Board of Education encourages your participation.
+						</p>
+						<p>
+							Participants will:
+						</p>
+						<ul>
+							<li>receive substitute reimbursement for their school (public school educators only);</li>
+							<li>have the opportunity for professional growth and work in collaboration with educators in their field;</li>
+							<li>be reimbursed for their travel and meal expenses; and</li>
+							<li>be provided with hotel accommodations, if necessary.</li>
+						</ul>
+					</div>
+				</section>
+
+				<!-- Development section -->
+				<section id="Development" class="bg-light">
+					<div class="container col-10 col-lg-8" data-aos="fade-up" data-aos-delay="100">
+						<h2 class="">Development</h2>
+						<p>
+							The development process may include the following activities:
+						</p>
+						<div class="row my-4">
+							<div class="col-sm-6 mb-4 mb-sm-0" data-aos="zoom-in" data-aos-delay="100">
+								<div class="card h-100"><a class="text-decoration-none text-reset" data-bs-toggle="modal" href="#framework-dev">
+									<div class="card-body">
+										<div class="feature bg-dark bg-gradient text-white rounded-3 mb-3"><i class="bi bi-list-ol" aria-hidden="true"></i></div>
+										<h3 class="card-title fs-5">Framework Development</h3>
+										<p class="card-text">Develop and review draft test frameworks in your field.</p>
+										<div class="text-primary">
+											Learn about framework development
+											<i class="bi bi-arrow-right" aria-hidden="true"></i>
+										</div>
+									</div>
+								</a></div>
+							</div>
+							<div class="col-sm-6" data-aos="zoom-in" data-aos-delay="200">
+								<div class="card h-100"><a class="text-decoration-none text-reset" data-bs-toggle="modal" href="#item-dev">
+									<div class="card-body">
+										<div class="feature bg-dark bg-gradient text-white rounded-3 mb-3"><i class="bi bi-ui-checks" aria-hidden="true"></i></div>
+										<h3 class="card-title fs-5">Item Development and Review</h3>
+										<p class="card-text">Develop and review draft test items in your field.</p>
+										<div class="text-primary">
+											Learn about item development and review
+											<i class="bi bi-arrow-right" aria-hidden="true"></i>
+										</div>
+									</div>
+								</a></div>
+							</div>
+						</div>
+						<div class="row my-4">
+							<div class="col-sm-6 mb-4 mb-sm-0" data-aos="zoom-in" data-aos-delay="400">
+								<div class="card h-100"><a class="text-decoration-none text-reset" data-bs-toggle="modal" href="#marker-response-dev">
+									<div class="card-body">
+										<div class="feature bg-dark bg-gradient text-white rounded-3 mb-3"><i class="bi bi-list-check" aria-hidden="true"></i></div>
+										<h3 class="card-title fs-5">Marker Response Establishment</h3>
+										<p class="card-text">Review and approve exemplary responses to constructed-response assignments.</p>
+										<div class="text-primary">
+											Learn about marker response selection activities
+											<i class="bi bi-arrow-right" aria-hidden="true"></i>
+										</div>
+									</div>
+								</a></div>
+							</div>
+							<div class="col-sm-6" data-aos="zoom-in" data-aos-delay="300">
+								<div class="card h-100"><a class="text-decoration-none text-reset" data-bs-toggle="modal" href="#scores-dev">
+									<div class="card-body">
+										<div class="feature bg-dark bg-gradient text-white rounded-3 mb-3"><i class="bi bi-pencil-square" aria-hidden="true"></i></div>
+										<h3 class="card-title fs-5">Establishment of Passing Scores</h3>
+										<p class="card-text">Participate in a process to recommend a passing score.</p>
+										<div class="text-primary">
+											Learn about establishing passing scores
+											<i class="bi bi-arrow-right" aria-hidden="true"></i>
+										</div>
+									</div>
+								  </a>
+								</div>
+							</div>
+						</div>
+						<div class="row my-4">
+						<div class="col-sm-6" data-aos="zoom-in" data-aos-delay="300">
+							<div class="card h-100"><a class="text-decoration-none text-reset" data-bs-toggle="modal" href="#bias-dev">
+								<div class="card-body">
+									<div class="feature bg-dark bg-gradient text-white rounded-3 mb-3"><i class="bi bi-universal-access-circle" aria-hidden="true"></i></div>
+									<h3 class="card-title fs-5">Content Bias Review</h3>
+									<p class="card-text">Review draft test materials for fairness and appropriateness.</p>
+									<div class="text-primary">
+										Learn about content bias reviews
+										<i class="bi bi-arrow-right" aria-hidden="true"></i>
+									</div>
+								</div>
+							</a></div>
+						    </div>
+					    </div>
+
+						<p>
+							If you become involved in any of the above activities, <a data-bs-toggle="modal" href="#dev-meetings">you may be asked to participate in one or more committees</a>.
+						</p>
+				
+						
+						<h3 class="fs-5 mt-5">Test Fields Under Development</h3>
+						
+						<p>
+							<a data-bs-toggle="modal" href="#test-list">Review the list of test fields currently being developed.</a> If you are currently certified and practicing in one or more of these fields, or preparing educator candidates in one of more of these fields, then <a href="#Apply">we encourage your participation!</a>
+						</p>
+					</div>	
+				</section>
+
+				<!-- Reimbursement section -->
+				<section id="Reimbursement" class="container col-10 col-lg-8" data-aos="fade-up" data-aos-delay="100">
+					<h2>Reimbursement</h2>
+					<br>
+					<h3 class="fs-5">General Information</h3>
+
+					<p>
+						These guidelines apply to individuals who attend Illinois State Board of Education (ISBE) and Evaluation Systems group of Pearson test development conferences/meetings for the ILTS program.
+					</p>
+					<p>
+						Additional reimbursement instructions will be made available before each conference/meeting.
+					</p>
+					<p>
+						Completed forms should be submitted to Evaluation Systems as soon as possible after the conference to ensure reimbursement in four to six weeks.
+					</p>
+					<p>
+						Please send all correspondence regarding these policies to <a href="mailto:EvaluationSystemsCRG@pearson.com"> EvaluationSystemsCRG@pearson.com</a>.</p>
+					<p>
+						Please note: The Internal Revenue Service requires Evaluation Systems to have a social security number for all conference participants receiving expense reimbursements.
+					</p>
+					
+					<div class="collapse" id="collapseReimbursement">
+					
+						<h3 class="fs-5">Substitute Teacher</h3>
+
+						<p>
+							During the school year (contract days), ISBE will reimburse a public school educator's school district for the cost of a substitute teacher.
+						</p>
+
+						<p>
+							Substitute reimbursement forms with additional instructions are distributed at each meeting.
+						</p>
+
+						<p>
+							Please note that payment will be sent directly to the committee member's designated school/district office.
+						</p>
+						
+						<h3 class="fs-5">Lodging</h3>
+
+						<p>
+							Hotel accommodations are available for those residing 50 or more miles from the meeting location, for those who are unable to travel due to adverse weather conditions, or as otherwise approved by Evaluation Systems. Hotel accommodations will be directly billed to Evaluation Systems. Although committee members will not be charged for their rooms, they will need to leave a deposit or credit card number at check-in to cover incidental expenses.
+						</p>
+						
+						<h3 class="fs-5">Travel</h3>
+						<p>
+							Evaluation Systems will reimburse personal automobile use at the federal mileage rate, roundtrip ground transportation, or airfare. Evaluation Systems requires prior approval for car rental and airfare expenses. Parking and toll expenses will also be reimbursed.
+						</p>
+						
+						<h3 class="fs-5">Meals</h3>
+						<p>
+							Depending on the conference agenda, a continental breakfast and lunch may be provided on the day of the conference. For meals that are not provided as a part of the meeting, a per diem reimbursement of $25 will be provided.
+						</p>
+
+						<h3 class="fs-5">Your Reimbursement</h3>
+						
+						<p>
+							Your expense reimbursement will be sent within approximately four to six weeks upon receipt of your correctly completed expense statement(s) and if you have submitted the following:
+						</p>
+						<ul>
+							<li>W&ndash;9 form</li>
+						</ul>
+						
+						<p>
+							Please note that a new W&ndash;9 form should be completed and returned for each test development conference that you attend. This policy is in place to ensure that there is no delay in processing your reimbursement check.
+						</p>
+					</div> 
+
+					<button class="btn btn-outline-secondary btn-sm mt-2" type="button" id="show-more-less" data-bs-toggle="collapse" data-bs-target="#collapseReimbursement" aria-expanded="false" aria-controls="collapseReimbursement">
+						show more
+					</button>
+
+				</section>
+
+				<!-- FAQ section -->
+				<section id="FAQs" class="bg-light mid-parallax">
+					<div class="container col-10 col-lg-8" data-aos="fade-up" data-aos-delay="100">
+						<h2 class="text-white">FAQs</h2>
+						<div class="accordion pt-3" id="accordionExample">
+							<div class="accordion-item">
+							<h2 class="accordion-header">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+									Why should I become involved in test development activities?
+								</button>
+							</h2>
+							<div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+								<div class="accordion-body">
+									Participation in development activities provides educators with an opportunity to collaborate with colleagues from across the state and to contribute to the quality of public education.
+								</div>
+							</div>
+							</div>
+							<div class="accordion-item">
+							<h2 class="accordion-header">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+									What if I am planning to take an Illinois Licensure Testing System (ILTS) test? May I still apply for participation?
+								</button>
+							</h2>
+							<div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+								<div class="accordion-body">
+									All educators are welcome to apply, but those educators who are selected to participate in ILTS test development activities should be aware that they will not be eligible to take the ILTS tests for three years from the date of the conference.
+								</div>
+							</div>
+							</div>
+							<div class="accordion-item">
+							<h2 class="accordion-header">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+									How do I get involved in test development activities?
+								</button>
+							</h2>
+							<div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+								<div class="accordion-body">
+									The first step is to complete and submit an application. Once an application is received, it will be sent to Illinois State Board of Education (ISBE) for review. Depending upon available committee spaces, ISBE will then send out an invitation to selected educators.
+								</div>
+							</div>
+							</div>
+							<div class="accordion-item">
+								<h2 class="accordion-header">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+									Where are the meetings typically held?
+								</button>
+								</h2>
+								<div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+								<div class="accordion-body">
+									Most meetings will take place at a centrally located conference facility in the Springfield area.
+								</div>
+								</div>
+							</div>
+							<div class="accordion-item">
+								<h2 class="accordion-header">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+									How does my school district get reimbursed for a substitute teacher? How do I get reimbursed for my mileage and travel expenses?
+								</button>
+								</h2>
+								<div id="collapse5" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+								<div class="accordion-body">
+									You will receive your substitute reimbursement forms and information about completing them at each meeting.
+								</div>
+								</div>
+							</div>
+							<div class="accordion-item">
+								<h2 class="accordion-header">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+									I have colleagues who would like to attend. May I encourage them to participate?
+								</button>
+								</h2>
+								<div id="collapse6" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+								<div class="accordion-body">
+									All interested participants need to submit an application, which will be considered by ISBE. Please ask your colleague(s) to submit an application from this website. You may also nominate colleague(s) by completing a nomination form available on this website.
+								</div>
+								</div>
+							</div>
+							<div class="accordion-item">
+								<h2 class="accordion-header">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+									If I do not get selected to participate in a test development conference, are there other opportunities to get involved?
+								</button>
+								</h2>
+								<div id="collapse7" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+									<div class="accordion-body">
+										<p>
+											Yes, you could be involved in the following types of test development activities:
+										</p>
+										<ul>
+											<li><strong>Content Validation Survey/Job Analysis Survey.</strong> As a public school educator or as a higher education faculty member you may be selected to participate in a survey to verify that the test objectives are related to the job.</li>
+
+											<li><strong>Field Testing.</strong> If you are a faculty member in an educator preparation program, you may be asked to assist in field testing the draft test items for your field by encouraging your students to participate. Participating in the field test will allow students to preview the types of items that may be on the actual ILTS tests.</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="accordion-item">
+								<h2 class="accordion-header">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
+									What are the arrangements for hotel accommodations?
+								</button>
+								</h2>
+								<div id="collapse8" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+									<div class="accordion-body">
+										The Evaluation Systems group of Pearson will reserve a hotel room for you, if needed. The cost of the room and tax will be directly billed to Evaluation Systems group of Pearson. You will be asked to provide a credit card number for incidentals. Should you need to cancel your attendance at the meeting, or cancel or modify your overnight accommodations reservation, please contact Evaluation Systems as soon as possible. (Evaluation Systems incurs charges for no-shows and for sleeping room cancellations that occur later than 3:00 p.m. the day before check-in.) If you need to cancel your accommodations after 5 p.m., please contact the hotel directly.
+									</div>
+								</div>
+							</div>
+							<div class="accordion-item">
+								<h2 class="accordion-header">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
+									Can I bring my cell phone and/or PDA?
+								</button>
+								</h2>
+								<div id="collapse9" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+									<div class="accordion-body">
+										As a courtesy to other attendees and facilitators, please refrain from the use of cell phones or PDAs during the meeting. We ask that you kindly turn off your phone/PDA or set it to vibrate and not take calls during the meeting.
+									</div>
+								</div>
+							</div>
+							<div class="accordion-item">
+								<h2 class="accordion-header">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse10" aria-expanded="false" aria-controls="collapse10">
+									What if I have special dietary requests?
+								</button>
+								</h2>
+								<div id="collapse10" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+									<div class="accordion-body">
+										Evaluation Systems selects menus that we hope everyone will enjoy. We realize that some individuals have special dietary requests. Attendees who notify us about special dietary requests are provided with a meal based as closely as possible on their specific dietary needs. Due to the large number of attendees and the ability of the conference facility to accommodate, substitutions to the standard conference meal may not be possible. Please make alternative meal arrangements if you have very specific dietary restrictions, as our food and beverage options may not meet your needs.
+									</div>
+								</div>
+							</div>
+							<div class="accordion-item">
+								<h2 class="accordion-header">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse11" aria-expanded="false" aria-controls="collapse11">
+									What should I wear?
+								</button>
+								</h2>
+								<div id="collapse11" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+									<div class="accordion-body">
+										Business attire is appropriate for all conference activities. We recommend that you dress in layers and bring a sweater or jacket to the meeting in case the room temperature is not comfortable for you.
+									</div>
+								</div>
+							</div>
+							<div class="accordion-item">
+								<h2 class="accordion-header">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse12" aria-expanded="false" aria-controls="collapse12">
+									Are the meeting rooms and hotel accommodations fully accessible to all?
+								</button>
+								</h2>
+								<div id="collapse12" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+									<div class="accordion-body">
+										Evaluation Systems strives to hold meetings that are accessible to all. If you require special assistance, auxiliary aids, or other reasonable accommodations to participate fully in the meeting, please let us know. Any information regarding your disability will remain confidential.
+									</div>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+
+				</section>
+
+				<!-- Apply section -->
+				<section id="Apply" class="container col-10 col-lg-8" data-aos="fade-up" data-aos-delay="100">
+					<h2>Apply</h2>
+
+					<p>
+						Please complete an online application form to be considered for ILTS test development opportunities. Upon receipt, your application will be reviewed by Illinois Board of Education (ISBE) and the Evaluation Systems group of Pearson. If your qualifications match an opening, you will be sent an e-mail invitation. If all committees are full, we will keep your application on file for future use.
+					</p>
+
+					<h3 class="fs-4 mt-4">Nominate</h3>
+
+					<p>
+						Nominate your colleagues for consideration in serving on a Content Advisory Committee or the Content Bias Review Committee.
+					</p>
+					
+					<h3 class="fs-4 mt-4">Spread the Word</h3>
+
+					<p>
+						<strong>Share with school administrators.</strong> Share this information with district-level human resource personnel, school principals, administrators, subject-area coordinators, and supervisors who may be able to nominate exemplary educators to participate in test development activities.
+					</p>
+					
+					<p>
+						<strong>Share with college personnel.</strong> Share this information with college deans, educator preparation personnel, faculty in arts and sciences, and others who may be able to nominate exemplary educators to participate in test development activities.
+					</p>
+
+					<div class="container text-center mt-5 d-grid gap-2 d-md-block">
+						<a class="btn btn-info btn-lg mx-2" href="https://cvent.me/05Veaz" target="_blank" role="button"><i class="bi bi-person-fill-check" aria-hidden="true"></i>
+							Apply
+						</a>
+						<a class="btn btn-info btn-lg mx-2" href="https://cvent.me/W2qxgk" target="_blank" role="button"><i class="bi bi-people-fill" aria-hidden="true"></i>
+							Nominate
+						</a>
+					</div>
+
+				</section>
+				</div>
+			
+
+			<!-- Footer -->
+			<section class="bg-dark">
+				<footer class="py-4">
+					<div class="container px-5">
+						<div class="row align-items-center justify-content-between flex-column flex-sm-row">
+							<div class="col-auto">
+								<div class="small m-0 text-white">Copyright &copy; <script>document.write(new Date().getFullYear())</script> Pearson Education, Inc. or its affiliate(s).</div>
+								<div class="small m-0 text-white">All rights reserved. Pearson, 300 Venture Way, Hadley, MA 01035</div>
+							</div>
+							<div class="col-auto">
+								<a class="link-light small" data-bs-toggle="modal" href="#privacy">Privacy Policy</a>
+								<span class="text-white mx-1">·</span>
+								<a class="link-light small" data-bs-toggle="modal" href="#terms">Terms of Use</a>
+								<span class="text-white mx-1">·</span>
+								<a class="link-light small" data-bs-toggle="modal" href="#trademarks">Trademarks</a>
+							</div>
+						</div>
+					</div>
+				</footer>
+			</section>
+
+
+			<!-- Modals -->
+			<!-- Framework Development modal content -->
+			<div class="modal fade" id="framework-dev" tabindex="-1" aria-labelledby="framework-devLabel" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h1 class="modal-title fs-5" id="framework-devLabel">Framework Development</h1>
+							<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						</div>
+						<div class="modal-body">
+							<p>
+								Test frameworks—sets of objectives that define the content of each test—are prepared for fields under development. The objectives are broad statements of knowledge and skills that are important for performing the job of an educator in Illinois public schools. The draft frameworks are based on sources including Illinois and national standards for each field. The draft frameworks are reviewed and approved by committees of Illinois public school educators and educator preparation faculty. The Framework Review Conference is typically a one-day meeting.
+							</p>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Item Development and Review modal content -->
+			<div class="modal fade" id="item-dev" tabindex="-1" aria-labelledby="item-devLabel" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h1 class="modal-title fs-5" id="item-devLabel">Item Development and Review</h1>
+							<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						</div>
+						<div class="modal-body">
+							<p>
+								Test questions are prepared based on the validated frameworks and other relevant materials obtained from Illinois educators. Draft test questions are reviewed and approved by the committees of Illinois public school educators and educator preparation faculty. The Item Review Conference is a one- to- two-day meeting.
+							</p>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Marker Response Establishment modal content -->
+			<div class="modal fade" id="marker-response-dev" tabindex="-1" aria-labelledby="marker-response-devLabel" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h1 class="modal-title fs-5" id="marker-response-devLabel">Marker Response Establishment</h1>
+							<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						</div>
+						<div class="modal-body">
+							<p>
+								Content Advisory Committee members convene to review and approve exemplary responses to constructed-response assignments. These responses will serve as "score-point markers" for training scorers to accurately score test takers' responses. The Marker Response Selection Meeting is typically a one-day meeting.
+							</p>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Establishment of Passing Scores modal content -->
+			<div class="modal fade" id="scores-dev" tabindex="-1" aria-labelledby="scores-devLabel" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h1 class="modal-title fs-5" id="scores-devLabel">Establishment of Passing Scores</h1>
+							<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						</div>
+						<div class="modal-body">
+							<p>
+								A passing score review meeting typically occurs shortly after the first administration of the test. At this meeting, educators participate in a process of making judgments and recommendations regarding a passing score for the test to Illinois State Board of Education. The Passing Score Review meeting is typically a one-day meeting.
+							</p>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Bias Review modal content -->
+			<div class="modal fade" id="bias-dev" tabindex="-1" aria-labelledby="bias-devLabel" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h1 class="modal-title fs-5" id="bias-devLabel">Content Bias Review</h1>
+							<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						</div>
+						<div class="modal-body">
+							<p>
+								Educators convene to review draft test materials, including test objectives and test items, for the inclusion of diverse perspectives in test materials. These are typically one- or two-day meetings held just before the content review meetings.
+							</p>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Committee Participation Information content -->
+			<div class="modal fade" id="dev-meetings" tabindex="-1" aria-labelledby="dev-meetingsLabel" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h1 class="modal-title fs-5" id="dev-meetingsLabel">Committee Participation Information</h1>
+							<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						</div>
+						<div class="modal-body">
+							<p class="fw-bold">
+								Content Advisory Committee
+							</p>
+							<p>
+								Educators who are subject matter experts are asked to review draft test materials which include test frameworks and test items. Content Advisory Committee members may also assist ISBE in other development activities.
+							</p>
+							<p class="fw-bold">
+								Content Bias Review Committee
+							</p>
+							<p>
+								Educators will review test materials for potential sources of bias according to established review criteria pertaining to test content, language, offensiveness, and stereotypes. Members make recommendations that will help prevent potential bias that would disadvantage a person because of her or his gender, race, nationality, ethnicity, religion, age, sexual orientation, handicapping condition, or cultural, economic, or geographic background.
+							</p>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Assessment list modal content -->
+			<div class="modal fade" id="test-list" tabindex="-1" aria-labelledby="test-listLabel" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h1 class="modal-title fs-5" id="test-listLabel">ILTS Tests Being Developed</h1>
+							<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						</div>
+						<div class="modal-body">
+							<!-- <p>
+								<span id="assessmentList"></span>
+							</p> -->
+							<p>Check back often for upcoming test development activities.</p>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+				
+			<!-- Privacy modal content -->
+			<div class="modal fade" id="privacy" tabindex="-1" aria-labelledby="privacyLabel" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h1 class="modal-title fs-5" id="privacyLabel">Privacy Policy</h1>
+							<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						</div>
+						<div class="modal-body">
+							<h2 class="fs-4">Information Collected and Processed in Connection with the Illinois Licensure Testing
+								System</h2>
+							<p>
+								The Evaluation Systems group of Pearson, a business of NCS Pearson, Inc. ("Pearson"), respects your privacy. This Privacy Policy applies to personal information that Pearson may collect or process in providing testing registration and testing services as a service provider to Illinois State Board of Education ("State").
+							</p>
+				
+							<p>
+							<strong>Purpose of Collecting Personal Information.</strong>
+							Pearson collects personal information about those applying to be involved in Committee Reviews (a) to enable the State to evaluate the applicant's qualifications for serving on a committee for the Committee Reviews, (b) to communicate with applicants about the Committee Reviews on behalf of the State, and (c) to otherwise communicate with applicants related to the Illinois Licensure Testing System (ILTS). Providing personal information is voluntary but necessary if the applicant wishes to apply for and participate in Committee Reviews. Pearson may use the information you provide to contact you related to your application, or with regard to other opportunities for participation in other committee review activities or testing related studies or activities. If you do not wish to be contacted regarding these opportunities, please contact us at <a href="mailto:es-postmaster@pearson.com">es-postmaster@pearson.com</a>.
+							</p>
+				
+							<p>
+							<strong>Personal Information Collected at the Time of Application.</strong> 
+							The personal data that Pearson collects or receives in connection with applications for Committee Reviews may include name, address, e-mail address, phone number, fax number, social security or other government-issued identification number, language, date of birth, employment information, previous examination history, and educational information, including educational institutions attended.</p>
+				
+							<p>
+							<strong>Protection of Personal Information.</strong>
+							Pearson uses reasonable precautions to protect personal information from unauthorized use, access, disclosure, alteration, or destruction. These precautions include appropriate physical, electronic, and managerial procedures.
+							</p>
+				
+							<p>
+							<strong>Transfer of Information to the State.</strong>
+							By applying for Committee Reviews participation through Pearson, you consent for your personal information to be transmitted by Pearson to the State. Please contact the State for information about how they may use your personal information if you have questions about their privacy policies and practices.
+							</p>
+
+							<p>
+							<strong>Other Transfer of Information.</strong> In addition to transmitting certain personal data about you to the State that you specify, we may disclose personally identifiable information (a) in response to a subpoena, court order, or legal process, to the extent permitted or required by law; (b) to maintain test and Committee Reviews security and integrity, to address violations of law, and/or to protect your security or the security of other persons, consistent with applicable law; (c) in connection with a sale, joint venture, or other transfer of some or all of the assets of Pearson; (d) to organizations who are working as contractors or agents of Pearson and who are committed or obliged to protect your privacy in a manner consistent with this Privacy Policy; and (e) as required by the State. By applying to participate in Committee Reviews you give your consent for your personal information to be transmitted in the situations outlined above. This website does not participate in any "Do Not Track" frameworks that would allow us to respond to signals or mechanisms from you regarding the collection of your personal information.
+							</p>
+				
+							<p>
+							<strong>Information Access and Corrections.</strong> To correct the personal information that we collect at the time of application, please contact us by e-mail at <a href="mailto:EvaluationSystemsCRG@pearson.com">EvaluationSystemsCRG@pearson.com</a>.
+							</p>
+				
+							<p>
+							<strong>Resolution of Concerns.</strong> If you have questions or concerns about this Privacy Policy or how we have handled personal data, please contact us at <a href="mailto:es-postmaster@pearson.com">es-postmaster@pearson.com</a>.
+							</p>
+				
+							<h3 class="fs-5">Information from Children</h3>
+				
+							<p>
+								This website, our testing services, and Committee Reviews are not directed to children or anyone under the age of thirteen (13). Pearson will not, through this website, knowingly collect, maintain, or use any personally identifiable information about anyone under the age of thirteen (13).
+							</p>
+				
+							<h3 class="fs-5">Information Received from Internet Service Providers Through This Website</h3>
+							
+							<p>
+								This website receives information that is automatically generated by a user's Internet service provider (ISP). This information may include the IP address (a number automatically assigned to a computer by the ISP); the associated URLs; domain types; the browser type used to access our site; the country, state, and telephone area code; the location of the ISP's servers; the pages of our site that the user views during the visit; any search terms entered on this site; and the user's website address and e-mail address. This information may be collected for system administration purposes, to gather broad demographic information, and to monitor the level of activity on the site. Pearson does not link IP addresses to personally identifiable information; however, we reserve the right to link IP addresses and other information supplied by the ISP to personally identifiable information in order to protect the integrity of our system and for security purposes.
+							</p>
+				
+							<h3 class="fs-5">Cookies</h3>
+							
+							<p>
+								Cookies are small text files that a website transfers to your computer's browser. We use cookies to measure traffic patterns, personalize content, and control security. The cookies we use supply non-personally-identifiable information, but they may identify your computer, browser, and Internet specifications.
+							</p>
+				
+							<h3 class="fs-5">Transmission of Information</h3>
+				
+							<p>
+								The Internet is a global environment. By using this website and sending information to us electronically, you consent to electronic transmission of any data that you may choose to supply us. Information transmissions to this site and e-mails sent to us may not be secure. Given the inherent operation and nature of the Internet, all Internet transmissions are done at the user's own risk.
+							</p>
+				
+							<h3 class="fs-5">Links to Other Sites</h3>
+				
+							<p>
+								This website may contain links to other websites on the Internet that are owned and operated by third parties, or by Pearson or its affiliates. The information practices of those websites are not covered by this Privacy Policy, but by their own terms and policies, which you should read carefully. These other sites may send their cookies to users, collect data, or solicit personal information. This Privacy Policy applies only to information collected or received in connection with Committee Reviews on behalf of the State. This Privacy Policy is not intended to apply to other Pearson websites, or other types of information which may be subject to different privacy policies.
+							</p>
+				
+							<h3 class="fs-5">Changes to This Privacy Policy</h3>
+				
+							<p>
+								We reserve the right to change the terms of this Privacy Policy from time to time by posting an updated Privacy Policy. We encourage you to review this Privacy Policy periodically for any changes or updates. This Privacy Policy is effective as of April 2, 2025, at 1:00 p.m. EDT.
+							</p>
+				
+							<h3 class="fs-5">How to Contact Us</h3>
+							
+							<p>
+							If you have any questions or concerns about this Privacy Policy, please contact us at <a href="mailto:es-postmaster@pearson.com">es-postmaster@pearson.com</a>.
+							</p>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<!-- Terms and conditions modal content -->
+			<div class="modal fade" id="terms" tabindex="-1" aria-labelledby="termsLabel" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h1 class="modal-title fs-5" id="termsLabel">Terms and Conditions of Use</h1>
+							<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						</div>
+						<div class="modal-body">
+							<h2 class="fs-4">Terms and Conditions of Use</h2>
+							
+							<p>
+								<strong>YOU ARE REQUIRED TO READ THESE TERMS AND CONDITIONS OF USE CAREFULLY BEFORE USING THIS SITE.</strong> By using this site, you agree to the terms and conditions listed on this page. If you do not agree to be so bound, please exit this website immediately. In that case, you may pursue other processes for application that do not depend upon access to this website.
+								</p>
+					
+								<h3 class="fs-5">Restriction on Use of Materials</h3>
+								
+								<p>
+									This site is operated by the Evaluation Systems group of Pearson, a business of NCS Pearson, Inc. ("Pearson"). The materials posted on these pages by Pearson may be retrieved solely for your own personal noncommercial use and may be downloaded to your own hard disk or sent to a printer solely for that purpose. In doing so, you may not remove or alter any trademark, copyright, or other proprietary notice. You may not otherwise copy, modify, or distribute the contents of these pages without the express written permission of Pearson. All trademarks, service marks, and trade names are proprietary to Pearson or the third-party owner of such mark or name and in any case must not be copied or replicated unless with the permission of and subject to the requirements of the owner.
+								</p> 
+					
+								<h3 class="fs-5">Disclaimer of Warranties/Exclusions of Consequential Damages</h3>
+								
+								<p>
+								<strong>PEARSON MAKES NO REPRESENTATIONS OR WARRANTIES WITH RESPECT TO THESE PAGES OR THEIR CONTENTS (INCLUDING, WITHOUT LIMITATION, MATERIAL COMMUNICATED BY THIRD PARTIES), WHICH ARE PROVIDED ON AN "AS IS" AND "AS AVAILABLE" BASIS. PEARSON DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF TITLE, NONINFRINGEMENT, MERCHANTABILITY, AND FITNESS FOR A PARTICULAR PURPOSE, WITH RESPECT TO THESE PAGES. PEARSON MAKES NO REPRESENTATIONS OR WARRANTIES THAT THE SERVICES PROVIDED BY THESE PAGES WILL BE UNINTERRUPTED AND ERROR-FREE; THAT DEFECTS WILL BE CORRECTED; OR THAT THE PAGES OR THE SERVER THAT MAKES THEM AVAILABLE ARE FREE FROM VIRUSES, WORMS, OR OTHER HARMFUL COMPONENTS. PEARSON ALSO MAKES NO REPRESENTATIONS OR WARRANTIES AS TO WHETHER THE INFORMATION ACCESSIBLE VIA THESE PAGES IS ACCURATE, COMPLETE, OR CURRENT. PEARSON MAY MAKE CHANGES TO THE CONTENTS, OR TO THE SERVICES OR MATERIALS DESCRIBED THEREIN, AT ANY TIME WITHOUT NOTICE. PEARSON MAKES NO COMMITMENTS TO UPDATE THE CONTENTS.</strong>
+								</p>
+					
+								<h3 class="fs-5">Disclaimer of Liability</h3>
+								
+								<p>
+								<strong>PEARSON, ITS EMPLOYEES OR AGENTS, OR ANYONE ELSE WHO HAS BEEN INVOLVED IN THE CREATION, PRODUCTION, OR DELIVERY OF THESE PAGES SHALL NOT BE LIABLE FOR ANY CLAIMS, LIABILITIES, LOSSES, AND EXPENSES OF ANY KIND, INCLUDING, WITHOUT LIMITATION, ANY DIRECT, INDIRECT, INCIDENTAL, COMPENSATORY, SPECIAL, OR CONSEQUENTIAL DAMAGES, SUCH AS, BUT NOT LIMITED TO, LOSS OF ANTICIPATED PROFITS, BENEFITS, USE, OR DATA RESULTING FROM THE USE OF THESE PAGES, EVEN IF PEARSON HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES OR LOSSES. THIS DISCLAIMER OF LIABILITY APPLIES TO DAMAGES OR INJURIES CAUSED BY ANY FAILURE OF PERFORMANCE, ERROR, OMISSIONS, INTERRUPTION, DELETION, DEFECT, DELAY IN OPERATION OR TRANSMISSION, COMPUTER VIRUS, COMMUNICATION LINE FAILURE, THEFT OR DESTRUCTION, OR UNAUTHORIZED ACCESS TO, ALTERATION OF, OR USE OF THIS WEBSITE WHETHER FOR BREACH OF CONTRACT, TORTIOUS BEHAVIOR, NEGLIGENCE, GROSS NEGLIGENCE, OR UNDER ANY OTHER CAUSE OF ACTION. YOU ASSUME ALL RESPONSIBILITY FOR ESTABLISHING SUCH PROCEDURES FOR DATA BACKUP AND VIRUS PROTECTION AS YOU DEEM APPROPRIATE.</strong>
+								</p>
+								
+								<p>
+									In addition to the terms set forth above, Pearson shall not be liable regardless of the cause or duration for any errors, inaccuracies, omissions, or other defects in, or untimeliness or unauthenticity of, the information contained within this website, or for any delay or interruption in therefrom or occasioned thereby. Pearson shall not be liable for any third-party claims or losses of any nature, including, but not limited to, punitive or consequential damages.
+								</p>
+					
+								<h3 class="fs-5">Termination</h3>
+								
+								<p>
+									These Terms and Conditions of Use are effective so long as you use this site or until terminated by Pearson, either with or without cause. You may terminate your use of this website at any time by ceasing to use this site. Your use of this site may also be terminated immediately by Pearson if, in Pearson's sole determination, you fail to comply with any term or provision of these Terms and Conditions of Use.
+								</p>
+								
+								<p>
+									Pearson reserves the right, at its discretion, to change, modify, add, or remove portions of these Terms and Conditions of Use at any time. The effective date and time of these terms and conditions is April 2, 2025, at 1:00 p.m. EDT. Your continued use of this website following the posting of changes to these Terms and Conditions of Use will constitute your acceptance to those changes.
+								</p>
+					
+								<h3 class="fs-5">Linking</h3>
+								
+								<p>
+									This website may from time to time contain links to third-party websites. It may also be linked with other websites, either with or without the consent of Pearson. In either case, the linked (or linking) websites are not under the control of Pearson, and Pearson is not responsible for the content of any linked website or any link contained in a linked website. Pearson reserves the right to terminate any link or linking program at any time. Pearson does not endorse companies, institutions, organizations, or products to which it links (or is linked). If you decide to access any of the third-party websites linked to this website, or if you link to this website from some other website, you do this entirely at your own risk.
+								</p>
+								
+								<p>
+									If you link to another website, you are leaving the Pearson website. By providing this linking service, Pearson is not undertaking any responsibility or liability for the information or publications of third parties on the Internet even if you access them through these pages.
+								</p>
+					
+								<h3 class="fs-5">Choice of Law/Consent to Jurisdiction</h3>
+								
+								<p>
+									These pages are controlled and operated by Pearson in the United States and intended for use within the United States. Pearson makes no representations that materials on these pages are appropriate or available for use in other locations. Those who choose to access these pages from other locations do so on their own initiative and are responsible for compliance with local laws. These Terms and Conditions of Use shall be governed by and construed and enforced in accordance with the laws of the United States of America and the State of Minnesota, except with regard to laws pertaining to choice of law. Any action to enforce these Terms and Conditions of Use shall be brought solely in the federal or state courts located in the Hennepin County, State of Minnesota. You expressly submit to the jurisdiction of said courts, and consent to extraterritorial service of process. The language in these Terms and Conditions of Use shall be interpreted as to their fair meaning and not strictly for or against any party. If any provision of these terms shall be deemed unlawful, void, or for any reason unenforceable, then that provision shall be deemed severable from these terms and shall not affect the validity and enforceability of any remaining provisions.
+								</p>
+					
+								<h3 class="fs-5">Entire Agreement</h3>
+								
+								<p>
+									You agree to the terms and conditions outlined in these Terms and Conditions of Use with respect to the service and content provided by this website. This Agreement constitutes the entire and only agreement between you and Pearson and supersedes any and all prior or contemporaneous agreements, representations, warranties, and understandings with respect to the website, the content and services provided by or through the website, and the subject matter of this agreement. This agreement shall not be modified except by Pearson as provided for above.
+								</p>
+					
+								<h3 class="fs-5">Headings</h3>
+								
+								<p>
+									Should any of the provisions of these Terms and Conditions of Use be declared or determined by any court to be illegal or invalid, the remaining provisions will not be affected and the illegal or invalid provisions shall not be deemed a part of these Terms and Conditions of Use. The headings of each of the Terms and Conditions of Use are for convenient reference only. They are not a part of the Terms and Conditions of Use themselves; they do not necessarily reflect the entire subject matter of each provision; and they are not intended to be used for the purpose of modifying, interpreting, or construing any of these Terms and Conditions of Use.
+								</p>
+				
+							<h3 class="fs-5">Copyright</h3>
+				
+							<p>
+							Copyright &copy; <script>document.write(new Date().getFullYear())</script> Pearson Education, Inc. or its direct affiliate(s). All rights reserved.
+							</p>
+							</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<!-- Trademarks modal content -->
+			<div class="modal fade" id="trademarks" tabindex="-1" aria-labelledby="trademarksLabel" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h1 class="modal-title fs-5" id="trademarksLabel">Trademarks</h1>
+							<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						</div>
+						<div class="modal-body">
+							<p>Pearson and its logo are trademarks in the U.S. and/or other countries of Pearson Education, Inc. or its affiliate(s).</p>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		
+		<script src="js/aos.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
