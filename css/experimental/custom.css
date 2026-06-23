@@ -1,0 +1,131 @@
+$info: #283590;
+$warning: #FCBA12;
+$primary: #024CBB;
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import '../node_modules/bootstrap-icons/font/bootstrap-icons.css'; 
+
+body {
+  font-family: "Open Sans", "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+}
+  
+.spinner-wrapper {
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.4s;
+}
+
+.spinner-border {
+  height: 60px;
+  width: 60px;
+}
+
+.spinner-color {
+  color: #52247b;
+}
+
+.parallax {
+  background: radial-gradient(rgba(3, 3, 3, 0.7), rgba(0, 0, 0, 0.3)), url("../img/QuestionHelp.jpg") fixed center center;
+  /* background-image: url(../img/classroom1a.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat; */
+  background-size: cover;
+  min-height: 100vh;
+  filter: grayscale(65%);
+}
+
+h1 {
+  font-size: clamp(40px, 4vw, 4vw)
+}
+
+.hero-logo > img {
+  max-width: 100%;
+}
+
+.nav-link {
+  color: white;
+}
+
+.hero-scroll {
+  padding-top: 50vh;
+  padding-bottom: 50vh;
+  margin: auto;
+}
+
+html {
+  scroll-padding-top: 3.5rem;
+}
+
+.container-fluid{
+  padding: 0;
+}
+
+/* Header and section padding, for nice white space */
+header {
+  padding: 6rem 0rem;
+  /* background-color: #505759; */
+}
+
+section {
+  padding: 5rem 0rem;
+}
+
+/* The following can be used for style overrides, see https://getbootstrap.com/docs/5.3/customize/css-variables/ */
+.btn {
+  border-radius: 22px;
+  font-weight: 600;
+}
+
+.btn-primary, .btn-warning {
+  border: none;
+  // color: var(--bs-white);
+}
+
+.btn:hover {
+  // color: var(--bs-white);
+  font-weight: 700;
+}
+
+.btn-warning:hover {
+  color: black;
+}
+
+/* Custom CSS for card animation */
+.card{
+  transition: transform ease 0.45s;
+}
+
+.card:hover {
+  transition: transform  0.3s;
+  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+  transform: translateY(-12px);
+}
+
+/* Custom CSS for feature component with Bootstrap icon */
+.feature {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 4rem;
+    width: 4rem;
+    font-size: 2rem;
+}
+
+/* Custom CSS for mid-page parallax */
+.mid-parallax {
+  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/Class_older.jpg") fixed center center;
+  background-size: cover;
+  padding: 60px 0;
+  filter: grayscale(50%);
+}
+  
+  
